@@ -29,6 +29,6 @@ This app allows users to **add, delete, and manage tasks** easily with local sto
 │── script.js  (or script.ts)
 │── README.md
 
-👩‍💻## Author
-Githup : https://github.com/Alishbasif
-LinkedIn : https://www.linkedin.com/in/alishba-asif-222b77363/
+## 👩‍💻 Author
+- Githup : https://github.com/Alishbasif
+- LinkedIn : https://www.linkedin.com/in/alishba-asif-222b77363/
