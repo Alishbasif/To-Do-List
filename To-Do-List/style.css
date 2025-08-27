@@ -1,0 +1,130 @@
+body{
+    background-color: aliceblue;
+}
+
+#container{
+    height:auto;
+    background-color: aqua;
+    width:90%;
+    margin-left:60px;
+    margin-top:80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+
+#heading{
+    text-align: center;
+    color:rgb(10, 10, 112);
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#taskInput{
+    width:1000px;
+    margin-left:60px;
+    height:40px;
+    outline:none;
+}
+
+#taskInput:focus{
+  outline:none;
+  border:1px solid transparent;
+  box-shadow:0 0 10px rgba(69, 232, 253, 0.986);
+}
+
+#taskInput:hover{
+    box-shadow: 0 0 10px rgb(115, 210, 226); 
+}
+
+#addBtn{
+  height:45px;
+  width:100px;
+  background-color:rgb(84, 240, 84);
+  font-size:15px;
+  font-weight:bold;
+  border: none;      
+  outline: none;      
+  cursor: pointer;     
+  color: white;
+}
+
+#addBtn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); 
+}
+
+#addBtn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+#ClearBtn{ 
+    margin-left:540px;
+    height:60px;
+    width: 160px;
+    color:rgb(255, 154, 171);
+    font-size:20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight:bold;
+    margin-bottom:20px;
+    margin-top:20px;
+    outline:none;
+    cursor:pointer;
+}
+
+#ClearBtn:hover{
+    box-shadow: 0 0 2px #ffb8f0;
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #ffffff;
+  height:30px;
+  width:1000px;
+  margin-left:100px;
+  margin-top:20px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.02); 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+li span {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  flex: 1;  
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
+
+li button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 6px;
+  transition: "background 0.3s ease";
+}
+
+li button:hover {
+  background: #e60000;
+}
