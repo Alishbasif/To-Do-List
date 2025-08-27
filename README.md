@@ -1,9 +1,9 @@
-##📝 To-Do List App
+📝 ## To-Do List App
 
 A simple and interactive To-Do List Application built with HTML, CSS, and JavaScript/TypeScript.
-This app allows users to add, delete, and manage tasks easily with local storage support.
+This app allows users to add, delete, and manage tasks easily with local storage support.#
 
-##🚀 Features
+🚀## Features
 
 ➕ Add new tasks
 
@@ -15,7 +15,7 @@ This app allows users to add, delete, and manage tasks easily with local storage
 
 🎨 Clean and responsive UI
 
-##🛠️ Technologies Used
+🛠️## Technologies Used
 
 HTML5 – Structure
 
@@ -25,13 +25,13 @@ JavaScript / TypeScript – Logic
 
 Local Storage – Data persistence
 
-##📂 Project Structure
+📂## Project Structure
 to-do-list/
 │── index.html
 │── style.css
 │── script.js  (or script.ts)
 │── README.md
 
-#👩‍💻 Author
+👩‍💻## Author
 Githup : https://github.com/Alishbasif
 LinkedIn : https://www.linkedin.com/in/alishba-asif-222b77363/
